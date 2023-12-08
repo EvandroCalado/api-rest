@@ -10,7 +10,8 @@ class HomeController {
       peso: 70,
       altura: 1.65,
     });
-    return res.json(novoAluno);
+
+    res.json(novoAluno);
   }
 }
 
